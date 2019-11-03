@@ -1,0 +1,72 @@
+<div class="row" id="third">
+  <div class="row">
+  <div class="col-7 col-md-7 card-body bg-secondary text-center pb-0">
+    <div class="text-center vertical-center">
+        <div class="row justify-content-around align-items-center">
+          <div class="col-8 col-md-6 col-lg-4 mb-4">
+            <img alt="Image" src="assets/img/graphic-woman-writing-2.svg" class="w-100" />
+          </div>
+          <!--end of col-->
+          <div class="col-12 col-md-6 col-lg-5 mb-4">
+          <div>
+            <h6 class="title-decorative mb-2">Step 3.</h6>
+            <h4>Select an option</h4>
+            <div>
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" value="notify-daily" name="notify-frequency" id="notify-daily">
+                <label class="custom-control-label" for="notify-daily">Daily</label>
+              </div>
+            </div>
+            <div>
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" value="notify-weekly" name="notify-frequency" checked id="notify-weekly">
+                <label class="custom-control-label" for="notify-weekly">Weekly</label>
+              </div>
+            </div>
+            <div>
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" value="notify-monthly" name="notify-frequency" id="notify-monthly">
+                <label class="custom-control-label" for="notify-monthly">Monthly</label>
+              </div>
+            </div>
+          </div>
+          </div>
+            <button class="btn btn-success sw-btn-next" type="button">Next Step</button>
+          </div>
+          <!--end of col-->
+        </div>
+        <!--end of row-->
+    </div>
+  </div>
+  <div class="col-5 col-md-5 card-body pb-0">
+    <div>
+      <div class="mb-5 text-center">
+        <h3 class="h2 mb-2">Features &amp; Benefits</h3>
+        <span>All plans come with 14 days free</span>
+      </div>
+      <ul class="list-unstyled list-spacing-sm mb-5 ">
+        <li class="row">
+          <div class="col-2 col-md-1"><i class="icon-check h5"></i>
+          </div>
+          <div class="col-10">Introduce the major benefits of your product and set the scene for what's to come</div>
+        </li>
+        <li class="row align-items-center">
+          <div class="col-2 col-md-1"><i class="icon-check h5"></i>
+          </div>
+          <div class="col-10">Make a bold new start today</div>
+        </li>
+        <li class="row">
+          <div class="col-2 col-md-1"><i class="icon-check h5"></i>
+          </div>
+          <div class="col-10">Describe some key features of this aspect of the product</div>
+        </li>
+        <li class="row align-items-center">
+          <div class="col-2 col-md-1"><i class="icon-check h5"></i>
+          </div>
+          <div class="col-10">Make a bold new start today</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--end of col-->
+</div>
