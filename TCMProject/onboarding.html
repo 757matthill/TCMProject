@@ -98,6 +98,9 @@
                                     <div class="form-group">
                                       <input type="text" placeholder="Now You Need A Password" name="name" class="form-control form-control-lg" />
                                     </div>
+                                    <div class="form-group">
+                                      <input type="text" placeholder="Please Confirm Your Password" name="name" class="form-control form-control-lg" />
+                                    </div>
                                   </div>
                                   <button class="btn btn-success sw-btn-next" type="button">Next Step</button>
                                 </div>
@@ -149,30 +152,25 @@
                               </div>
                               <!--end of col-->
                               <div class="col-12 col-md-6 col-lg-5 mb-4">
-                              <div>
                                 <h6 class="title-decorative mb-2">Step 2.</h6>
-                                <h4>Flick some switches</h4>
-                                <p>This information will be for Roomagnet Match</p>
-                                <div>
-                                  <div class="custom-control custom-switch">
-                                    <input type="checkbox" class="custom-control-input" id="box-2">
-                                    <label class="custom-control-label" for="box-2">Graphic Design</label>
-                                  </div>
-                                </div>
-                                <div>
-                                  <div class="custom-control custom-switch">
-                                    <input type="checkbox" class="custom-control-input" id="box-3">
-                                    <label class="custom-control-label" for="box-3">Website Design</label>
-                                  </div>
-                                </div>
-                                <div>
-                                  <div class="custom-control custom-switch">
-                                    <input type="checkbox" class="custom-control-input" id="box-3">
-                                    <label class="custom-control-label" for="box-3">Website Design</label>
-                                  </div>
-                                </div>
-
+                                <h4 class="mb-2">Tell us about your location</h4>
+                                <p>We will use this information to find and compare nearby properties</p>
+                              <div class="form-group">
+                                <input type="text" placeholder="What state do you live in?" name="name" class="form-control form-control-lg" />
                               </div>
+                                <div class="form-group">
+                                  <input type="text" placeholder="What city/county do you live in?" name="name" class="form-control form-control-lg" />
+                                </div>
+                                <div class="form-group">
+                                  <input type="text" placeholder="What is your zip code?" name="name" class="form-control form-control-lg" />
+                                </div>
+                                <div>
+                                  <p>Do you live in the United States?</p>
+                                  <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="box-1">
+                                    <label class="custom-control-label" for="box-1">Yes</label>
+                                  </div>
+                                </div>
                                 <button class="btn btn-success sw-btn-next" type="button">Next Step</button>
                               </div>
                               <!--end of col-->
@@ -225,24 +223,30 @@
                                 <div class="col-12 col-md-6 col-lg-5 mb-4">
                                 <div>
                                   <h6 class="title-decorative mb-2">Step 3.</h6>
-                                  <h4>Select an option</h4>
+                                  <h4 class="mb-2">Are you sharing a home or searching for a home?</h4>
+                                  <p>This will help us make your experience easier</p>
                                   <div>
-                                    <div class="custom-control custom-radio">
-                                      <input type="radio" class="custom-control-input" value="notify-daily" name="notify-frequency" id="notify-daily">
-                                      <label class="custom-control-label" for="notify-daily">Daily</label>
-                                    </div>
-                                  </div>
-                                  <div>
-                                    <div class="custom-control custom-radio">
-                                      <input type="radio" class="custom-control-input" value="notify-weekly" name="notify-frequency" checked id="notify-weekly">
-                                      <label class="custom-control-label" for="notify-weekly">Weekly</label>
-                                    </div>
-                                  </div>
-                                  <div>
-                                    <div class="custom-control custom-radio">
-                                      <input type="radio" class="custom-control-input" value="notify-monthly" name="notify-frequency" id="notify-monthly">
-                                      <label class="custom-control-label" for="notify-monthly">Monthly</label>
-                                    </div>
+                                    <ul class="row feature-list feature-list-sm">
+                                      <li class="col-6">
+                                        <a class="card card-lg" href="#">
+                                          <div class="card-header card-header-borderless py-5 text-center">
+                                            <i class="fas fa-home fa-5x text-indigo"></i>
+                                          </div>
+                                          <div class="card-body text-body">
+                                            <h4 class="card-title">Sharing A Home</h4>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li class="col-6">
+                                        <a class="card card-lg" href="#">
+                                          <div class="card-header card-header-borderless py-5 text-center">
+                                            <i class="fas fa-bed fa-5x text-blue"></i>
+                                          </div>
+                                          <div class="card-body text-body">
+                                            <h4 class="card-title">Searching For A Home</h4>
+                                          </div>
+                                        </a>
+                                      </li>
                                   </div>
                                 </div>
                                   <button class="btn btn-success sw-btn-next" type="button">Next Step</button>
@@ -299,7 +303,7 @@
                                 <h4>You're all set</h4>
                                 <p>Well done, you've completed the process, just hit the button below to change the world.</p>
                               </div>
-                                <button class="btn btn-success sw-btn-next" type="button">Next Step</button>
+                                <button class="btn btn-danger sw-btn-next" type="button">Next Step</button>
                               </div>
                               <!--end of col-->
                             </div>
